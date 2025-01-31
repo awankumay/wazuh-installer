@@ -12,11 +12,11 @@ Skrip ini mengotomatiskan proses instalasi Wazuh Agent di Ubuntu. Skrip ini akan
 
 1. **Unduh dan jalankan skrip:**
    ```bash
-   curl -sL https://raw.githubusercontent.com/awankumay/wazuh-installer/installer-wazuh.sh | bash -s -- [options]
+   curl -sL https://raw.githubusercontent.com/awankumay/wazuh-installer/main/installer-wazuh.sh | bash -s -- [options]
 2. **Opsi**
     - -i: Menginstal Wazuh Agent. Wajib.
     - -e: Mengaktifkan dan memulai layanan Wazuh Agent. Opsional.
     - -h: Menampilkan pesan bantuan.
 2. **Contoh**
    ```bash
-   curl -sL https://raw.githubusercontent.com/awankumay/wazuh-installer/installer-wazuh.sh | bash -s -- -i -e
+   curl -sL https://raw.githubusercontent.com/awankumay/wazuh-installer/main/installer-wazuh.sh | bash -s -- -i -e
