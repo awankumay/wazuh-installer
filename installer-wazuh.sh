@@ -55,7 +55,7 @@ fi
 # Function to install Wazuh Agent
 function install_wazuh_agent() {
     # Download the Wazuh Agent package
-    wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.10.1-1_amd64.deb
+    wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.11.2-1_amd64.deb
 
     # Install the Wazuh Agent
     sudo WAZUH_MANAGER="$WAZUH_MANAGER" WAZUH_AGENT_GROUP='Owlexa-Healthcare' WAZUH_AGENT_NAME="$HOSTNAME_AGENT" dpkg -i ./wazuh-agent_4.10.1-1_amd64.deb
